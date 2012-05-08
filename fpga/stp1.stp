@@ -1,0 +1,946 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP3C16/EP4CE15 (0x020F20DD)" sof_file="FTDI_FIFO.sof">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <signal_set global_temp="1" is_expanded="true" name="signal_set: 2012/05/02 05:16:14  #0">
+      <clock name="CLOCK_50" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="128" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|done_rd_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|fifo_rd_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iACT_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_RXF_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oDONE_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oFIFO_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRUN_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|run_rd_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_IN" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_WAIT1" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_WAIT2" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_NEG_RD" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_POS_RD" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_PRE_CHARGE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_WAIT_RXF" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|done_wr_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|fifo_wr" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iACT_WR_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iFIFO_TXE_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oDONE_WR_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_WR" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oRUN_WR_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|run_wr_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DATA_SETUP1" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DATA_SETUP2" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_NEG_WR" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_POS_WR_DATA_OUT" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_PRE_CHARGE1" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_PRE_CHARGE2" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_WAIT_TXE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_RXF_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_TXE_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_WR" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oRD_VERIFY_NG" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_act_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_DATA_WAIT" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_DATA" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_NG" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rst" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_act_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_DATA_WAIT" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_VERIFY_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[7]" tap_mode="classic" type="register"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|done_rd_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|fifo_rd_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iACT_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_RXF_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oDONE_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oFIFO_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRUN_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|run_rd_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_IN" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_WAIT1" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_WAIT2" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_NEG_RD" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_POS_RD" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_PRE_CHARGE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_WAIT_RXF" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|done_wr_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|fifo_wr" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iACT_WR_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iFIFO_TXE_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oDONE_WR_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_WR" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oRUN_WR_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|run_wr_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DATA_SETUP1" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DATA_SETUP2" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_NEG_WR" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_POS_WR_DATA_OUT" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_PRE_CHARGE1" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_PRE_CHARGE2" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_WAIT_TXE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_RXF_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_TXE_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_WR" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oRD_VERIFY_NG" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_act_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_DATA_WAIT" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_DATA" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_NG" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rst" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_act_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_DATA_WAIT" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_VERIFY_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[7]" tap_mode="classic" type="register"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|done_rd_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|fifo_rd_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iACT_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_RXF_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oDONE_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oFIFO_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRUN_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|run_rd_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_IN" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_WAIT1" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_WAIT2" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_NEG_RD" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_POS_RD" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_PRE_CHARGE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_WAIT_RXF" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|done_wr_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|fifo_wr" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iACT_WR_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iFIFO_TXE_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oDONE_WR_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_WR" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oRUN_WR_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|run_wr_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DATA_SETUP1" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DATA_SETUP2" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_NEG_WR" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_POS_WR_DATA_OUT" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_PRE_CHARGE1" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_PRE_CHARGE2" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_WAIT_TXE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_RXF_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|iFIFO_TXE_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_RD_n" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oFIFO_WR" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|oRD_VERIFY_NG" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_act_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_DATA_WAIT" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_DATA" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_NG" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_data[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_loop_counter[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|rst" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_act_n" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_DATA_WAIT" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_DONE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_IDLE" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_VERIFY_LOOP" tap_mode="classic" type="combinatorial"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_loop_counter[7]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_count" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[0]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[1]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[2]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[3]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[4]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[5]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[6]" tap_mode="classic" type="register"/>
+          <wire name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[7]" tap_mode="classic" type="register"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_RXF_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_TXE_n"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_RD_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_WR"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oRD_VERIFY_NG"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_act_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_DATA_WAIT"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_DONE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_IDLE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_LOOP"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_DATA"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_LOOP"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_NG"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|rd_data" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_count"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|rd_loop_counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_count"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rst"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_act_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_DATA_WAIT"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_DONE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_IDLE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_LOOP"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_VERIFY_LOOP"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_count"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|wr_loop_counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_count"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|done_rd_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|fifo_rd_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iACT_RD_n"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_RXF_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oDONE_RD_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oFIFO_RD_n"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRUN_RD_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|run_rd_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_IN"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_WAIT1"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_WAIT2"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DONE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_IDLE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_NEG_RD"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_POS_RD"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_PRE_CHARGE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_WAIT_RXF"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|done_wr_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|fifo_wr"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iACT_WR_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iFIFO_TXE_n"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oDONE_WR_n"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_WR"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oRUN_WR_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|run_wr_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DATA_SETUP1"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DATA_SETUP2"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DONE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_IDLE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_NEG_WR"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_POS_WR_DATA_OUT"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_PRE_CHARGE1"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_PRE_CHARGE2"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_WAIT_TXE"/>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_RXF_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|iFIFO_TXE_n"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_RD_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oFIFO_WR"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|oRD_VERIFY_NG"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_act_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_DATA_WAIT"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_DONE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_IDLE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_LOOP"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_DATA"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_LOOP"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_ctrl_state.ST_RDCTRL_VERIFY_NG"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|rd_data" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_data[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_count"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|rd_loop_counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_loop_counter[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_count"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rd_verify_loop_counter[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|rst"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_act_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_DATA_WAIT"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_DONE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_IDLE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_LOOP"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_ctrl_state.ST_WRCTRL_VERIFY_LOOP"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_count"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|wr_loop_counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_loop_counter[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_count"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|wr_verify_loop_counter[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|data_rd[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|done_rd_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|fifo_rd_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iACT_RD_n"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|iFIFO_RXF_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oDONE_RD_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oFIFO_RD_n"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRD_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|oRUN_RD_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|run_rd_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_IN"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_WAIT1"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DATA_WAIT2"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_DONE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_IDLE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_NEG_RD"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_POS_RD"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_PRE_CHARGE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_rd:ftdi_fifo_rd|state_rd.ST_RD_WAIT_RXF"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr" order="msb_to_lsb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|data_wr[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|done_wr_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|fifo_wr"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iACT_WR_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iFIFO_TXE_n"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|iWR_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oDONE_WR_n"/>
+          <bus is_signal_inverted="no" link="all" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[7]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[6]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[5]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[4]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[3]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[2]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[1]"/>
+            <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_DATA[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oFIFO_WR"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|oRUN_WR_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|run_wr_n"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DATA_SETUP1"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DATA_SETUP2"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_DONE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_IDLE"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_NEG_WR"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_POS_WR_DATA_OUT"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_PRE_CHARGE1"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_PRE_CHARGE2"/>
+          <net is_signal_inverted="no" name="ftdi_fifo:ftdi_fifo|ftdi_fifo_wr:ftdi_fifo_wr|state_wr.ST_WR_WAIT_TXE"/>
+        </setup_view>
+      </presentation>
+      <trigger CRC="17082F4E" attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2012/05/02 06:51:13  #0" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'ftdi_fifo:ftdi_fifo|oRD_VERIFY_NG' == high
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            <pwr_up_transitional>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2012/05/02 06:51:13  #1" power_up_mode="false" sample_depth="128" trigger_position="16">000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000000000001111111111101100000000000000100000000000010100000000010000000000000010000011111111000000000010110000001000000001100000001100001001100100000000000100000000</data>
+          <extradata>1111111111111111T111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</extradata>
+        </log>
+      </trigger>
+    </signal_set>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="130944"/>
+    </position_info>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="config widget visible" value="1"/>
+    <single attribute="data log widget visible" value="1"/>
+    <single attribute="hierarchy widget height" value="82"/>
+    <single attribute="hierarchy widget visible" value="1"/>
+    <single attribute="instance widget visible" value="1"/>
+    <single attribute="jtag widget visible" value="1"/>
+    <multi attribute="column width" size="23" value="34,34,218,74,68,70,88,88,98,98,88,88,110,101,101,101,101,101,101,101,101,107,78"/>
+    <multi attribute="frame size" size="2" value="1280,751"/>
+    <multi attribute="jtag widget size" size="2" value="320,120"/>
+  </global_info>
+</session>

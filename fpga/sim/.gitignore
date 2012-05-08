@@ -1,0 +1,8 @@
+# Model-Sim .gitignore
+*.mti
+*.mpf
+transcript
+*.wlf
+*.vstf
+work/
+
